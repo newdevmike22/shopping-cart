@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background: #f8f9fa;
+        font-family: 'Open Sans Variable', sans-serif;
+    }
+}
