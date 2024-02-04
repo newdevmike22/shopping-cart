@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+
 const App = () => {
 
   return (
-    <h1>Shopping Cart</h1>
+    <main>
+      <Navbar />
+    </main>
   )
 };
 
