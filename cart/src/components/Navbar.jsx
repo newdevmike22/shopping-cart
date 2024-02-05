@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
       <nav className="bg-[#645cff] h-[5rem] flex justify-center items-center">
         <div className="w-[90vw] max-w-[800px] flex justify-between items-center">
-          <h4 className="text-white text-[1rem] sm:text-[2vw] lg:text-[2rem]">useReducer</h4>
+          <h4 className="text-white">useReducer</h4>
           <div className="block relative">
             <FaCartPlus className="text-white text-[2.25rem]" />
             <div className="amount-container">
