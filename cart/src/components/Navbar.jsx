@@ -1,5 +1,8 @@
 import { FaCartPlus } from "react-icons/fa";
+import { useGlobalContext } from "../context";
+
 const Navbar = () => {
+    const { totalAmount } = useGlobalContext();
 
     return (
       <nav className="bg-[#645cff] h-[5rem] flex justify-center items-center">
@@ -8,7 +11,7 @@ const Navbar = () => {
           <div className="block relative">
             <FaCartPlus className="text-white text-[2.25rem]" />
             <div className="amount-container">
-              <p className="text-white text-[1.25rem]">2</p>
+              <p className="text-white text-[1.25rem]">{totalAmount}</p>
             </div>
           </div>
         </div>
